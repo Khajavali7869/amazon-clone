@@ -1,0 +1,255 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color:white;
+    display:flex;
+    align-items: center;
+     justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50ox;
+     width: 100px;
+}
+.logo{
+    background-image: url("https://i0.wp.com/www.dafontfree.co/wp-content/uploads/2021/11/Amazon-Logo-Font-1-scaled.jpg?resize=2560%2C1578");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.border:hover{
+    border:1px solid white;
+    padding:1px 2px 1px 1px;
+}
+.border{
+    border: 1px solid transparent;
+}
+.first{
+    color:#cccccc;
+    font-size: 0.85rem;
+    margin-left:15px;
+}
+.second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.icons{
+    display:flex;
+    align-items: center;
+    
+}
+.nav-select{
+    height: 40px;
+    width: 620px;
+    display: flex;
+     background-color: pink;
+     border-radius: 4px;
+     justify-content: space-evenly;
+}
+.select{
+    background-color: #f3f3f3;
+    width: 45px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+}
+.input{
+    display:flex;
+    flex: 1;
+    font-size: 1rem;
+    border:none;
+}
+.icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color:#febd68;
+    color: black;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius:4px;
+
+}
+.nav-select:hover{
+    border:2px solid orange;
+}
+span{
+    font-size: 0.7rem;
+}
+.lists{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.orders{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.cart i{
+font-size: 25px;
+}
+.cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.opt p{
+    display:inline;
+    margin-left: 15px;
+
+}
+.opt{
+    width: 50%;
+    font-size: 0.85rem;
+}
+.deals{
+    font-size: 0.85rem;
+    color: #cccccc;
+    font-weight: 500;
+}
+.all{
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+.hero{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img22/Unrec/TallHero_3000X1200_Unrec._CB593464763_.jpg");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.message{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 70%;
+    margin-bottom: 25px;
+}
+.hero a{
+    color: #007185;
+}
+
+.total{
+    display:flex;
+    height: 40px;
+    justify-content: space-between;
+}
+.container{
+    background-color: #e2e7e6;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.product{
+     background-color: white;
+    display: flex;
+     max-width: 300px;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+     margin-bottom: 15px;
+}
+.product h2{
+    margin: 0;
+    padding: 10px;
+}
+.product card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nested p{
+    margin:5px;
+}
+.nested img{
+    width: 128px;
+    height: 102px;
+    background-size: cover;
+}
+.btn{
+    font-size: 14px;
+    align-items: flex-start;
+    margin: 7px 0px;
+    padding: 10px;
+  border: none;
+background-color: white;
+float: right;
+}
+footer{
+    margin-top:15px;
+}
+.back{
+    height: 50px;
+    color: #ffffff;
+    background-color:#37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:0.85rem;
+}
+.inside{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul{
+    margin-top:15px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin: 10px;
+    color: #dddddd;
+}
+.inside1{
+    background-color: #222f3d;
+    color: white;
+    border-top:0.5px solid white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url("https://i0.wp.com/www.dafontfree.co/wp-content/uploads/2021/11/Amazon-Logo-Font-1-scaled.jpg?resize=2560%2C1578");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+
+a:hover{
+  border-bottom: 0.2px solid white;
+}
+.inside2{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #222f3d;
+    color: white;
+
+}
+.inside2 p{
+    padding: 50px;
+}
